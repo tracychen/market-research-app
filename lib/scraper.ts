@@ -1,14 +1,11 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import ExcelJS from "exceljs";
-import NodeGeocoder from "node-geocoder";
 import { getDistance } from "geolib";
 import clientPromise from "./mongodb";
 import { stateCodeMap, stateInitials } from "./states";
 import areaData from "../data/areaData.json";
 import cityData from "../data/cityData.json";
-
-import fetch from "node-fetch";
 import { getCityLatLng } from "./geocoder";
 
 // MongoDB collection names
@@ -18,7 +15,7 @@ const FILES_COLLECTION = "files";
 // Function to scrape demographic data from city-data.com
 export async function scrapeCityData(
   url: string,
-  fields: Record<string, string | (($: cheerio.Root) => string | number | null)>
+  fields: Record<string, ($: cheerio.Root) => string | number | null>
 ) {
   try {
     const response = await axios.get(url);
@@ -31,24 +28,7 @@ export async function scrapeCityData(
     const data: Record<string, string | number | null> = {};
 
     for (const [fieldName, fieldSelector] of Object.entries(fields)) {
-      let value = null;
-
-      // If selector is a function, call it with $ (cheerio)
-      if (typeof fieldSelector === "function") {
-        value = fieldSelector($);
-      } else {
-        // Otherwise, use the selector string
-        const element = $(fieldSelector);
-        if (element.length) {
-          value = element.text().trim();
-          // Process value as before...
-        } else {
-          console.log(
-            `Failed to find the selector '${fieldSelector}' in ${url}.`
-          );
-        }
-      }
-
+      const value = fieldSelector($);
       data[fieldName] = value;
     }
 
@@ -95,7 +75,7 @@ export async function scrapeBLSData(url: string) {
     }[] = [];
 
     rows.each((index, row) => {
-      const yearCell = $(row).find("td:first-child");
+      const yearCell = $(row).find("td").first();
       const year = parseInt(yearCell.text().trim());
 
       if (isNaN(year)) return; // Skip if not a valid year
@@ -200,7 +180,7 @@ export async function scrapeBLSData(url: string) {
   }
 }
 
-// Function to construct the BLS URL
+// Function to construct the BLS URL from series components https://www.bls.gov/help/hlpforma.htm#SM
 export function constructBLSUrl(state: string, areaCode: string) {
   const seriesId = `SMU${stateCodeMap[state]}${areaCode}0000000001`;
   return `https://data.bls.gov/timeseries/${seriesId}`;
@@ -244,15 +224,9 @@ export async function findClosestMetroArea(
   apiKey: string
 ) {
   try {
-    // Set up geocoder
-    const geocoder = NodeGeocoder({
-      provider: "google",
-      fetch: fetch,
-      apiKey,
-    });
-
     // Get target city coordinates
     let targetCoords;
+    // TODO cache coords of cities in db
     if (
       cityDataCache[targetCityName] &&
       cityDataCache[targetCityName].coordinates
@@ -421,11 +395,11 @@ export async function runScraper(
       "Population in 2022": ($: cheerio.Root) => {
         const section = $("#city-population");
         if (section.length) {
-          // Get the HTML content
-          const html = section.html();
-          if (html) {
-            // Use regex to extract the number after the first closing tag
-            const match = html.match(/Population in 2022:<\/b>(.*?) /);
+          // Get the text content directly
+          const text = section.text();
+          if (text) {
+            // Use regex to extract the population number
+            const match = text.match(/Population in 2022:\s*([\d,]+)/);
             if (match && match[1]) {
               return match[1].trim();
             }
@@ -450,79 +424,34 @@ export async function runScraper(
         return null;
       },
 
-      "Median household income in 2022": ($: cheerio.Root) => {
-        const section = $("#median-income");
-        if (section.length) {
-          const html = section.html();
-          if (html) {
-            const match = html.match(
-              /Median household income in 2022:<\/b>(.*?)(?:<|\()/
-            );
-            if (match && match[1]) {
-              return match[1].trim();
-            }
-          }
-        }
-        return null;
+      "Median household income in 2023": ($: cheerio.Root) => {
+        const text = $("#median-income").contents().eq(1).text().trim(); // Target the text node after the first <b>
+        const match = text.match(/\$\d{1,3}(?:,\d{3})*/);
+        return match ? match[0] : null;
       },
 
       "Median household income in 2000": ($: cheerio.Root) => {
-        const section = $("#median-income");
-        if (section.length) {
-          const html = section.html();
-          if (html) {
-            const match = html.match(
-              /Median household income in 2000:<\/b>(.*?)(?:<|\()/
-            );
-            if (match && match[1]) {
-              return match[1].trim();
-            }
-          }
-        }
-        return null;
+        const text = $("#median-income").contents().eq(3).text().trim(); // Target the text node after the first <b>
+        return text ? text : null;
       },
 
-      "Median condo value in 2022": ($: cheerio.Root) => {
-        const section = $("#median-income");
-        if (section.length) {
-          const html = section.html();
-          if (html) {
-            const match = html.match(
-              /Median condo value in 2022:<\/b>(.*?)(?:<|\()/
-            );
-            if (match && match[1]) {
-              return match[1].trim();
-            }
-          }
-        }
-        return null;
+      "Median condo value in 2023": ($: cheerio.Root) => {
+        const text = $("#median-income").contents().eq(25).text().trim(); // Target the text node after the third <b>
+        const match = text.match(/\$\d{1,3}(?:,\d{3})*/);
+        return match ? match[0] : null;
       },
 
       "Median condo value in 2000": ($: cheerio.Root) => {
-        const section = $("#median-income");
-        if (section.length) {
-          const html = section.html();
-          if (html) {
-            const match = html.match(
-              /Median condo value in 2000:<\/b>(.*?)(?:<|\()/
-            );
-            if (match && match[1]) {
-              return match[1].trim();
-            }
-          }
-        }
-        return null;
+        const text = $("#median-income").contents().eq(27).text().trim(); // Target the text node after the third <b>
+        return text ? text : null;
       },
 
       "Median contract rent": ($: cheerio.Root) => {
-        const section = $("#median-rent");
-        if (section.length) {
-          const text = section.find("p").first().text();
-          if (text) {
-            const match = text.match(/Median contract rent in.*?(\$[\d,]+)/);
-            if (match && match[1]) {
-              return match[1].trim();
-            }
+        const text = $("#median-rent").find("p").first().text();
+        if (text) {
+          const match = text.match(/Median gross rent in 2023:.*?(\$[\d,]+)/);
+          if (match && match[1]) {
+            return match[1].trim();
           }
         }
         return null;
@@ -534,7 +463,7 @@ export async function runScraper(
           const html = section.html();
           if (html) {
             const match = html.match(
-              /Residents with income below the poverty level in.*?:<\/b>(.*?)%/
+              /Percentage of residents living in poverty in 2023.*?:<\/b>(.*?)%/
             );
             if (match && match[1]) {
               return match[1].trim() + "%";
@@ -582,16 +511,13 @@ export async function runScraper(
       },
 
       "Unemployment rate": ($: cheerio.Root) => {
-        const unemploymentSection = $("#unemployment");
-        if (unemploymentSection.length) {
-          const cell = unemploymentSection.find(
-            "div:first-child table tr:first-child td:nth-child(2)"
-          );
-          if (cell.length) {
-            return cell.text().trim();
-          }
-        }
-        return null;
+        const unemploymentRate = $("#unemployment .hgraph table tr")
+          .first() // First row (contains "Here: 4.4%")
+          .find("td")
+          .last() // Last <td> in the first row
+          .text() // Get the text content
+          .trim(); // Remove extra whitespace
+        return unemploymentRate || null;
       },
     };
 
@@ -623,15 +549,12 @@ export async function runScraper(
 
       // Save cities data to JSON file in MongoDB
       const timestamp = new Date()
-        .toISOString()
-        .replace(/[:.-]/g, "_")
-        .replace("T", "_")
-        .split("_")
-        .slice(0, 3)
-        .join("_");
+        .toISOString() // Get the ISO string (e.g., "2025-03-19T12:34:56.789Z")
+        .split(".")[0]; // Remove milliseconds and "Z"
+
       const citiesJsonFilename = `${state
         .replace(/ /g, "")
-        .toLowerCase()}_cities_population_${timestamp}.json`;
+        .toLowerCase()}_cities_population_min_${minPopulation}_${timestamp}.json`;
 
       const jsonFile = await saveFileToDB(
         citiesJsonFilename,
@@ -646,15 +569,15 @@ export async function runScraper(
       const data: Record<string, (string | number | null)[]> = {
         City: [],
         "Closest Metro Area": [],
+        "Job Growth (%)": [],
+        "City Data URL": [],
+        "BLS URL": [],
       };
 
       // Add fields for city data
       for (const field of Object.keys(cityFields)) {
         data[field] = [];
       }
-
-      // Add field for job growth
-      data["Job Growth (%)"] = [];
 
       // Process each city
       const baseUrlCity = "https://www.city-data.com/city/";
@@ -671,6 +594,7 @@ export async function runScraper(
 
           // Add city data
           for (const [field, value] of Object.entries(cityDataResult)) {
+            console.log(`Adding ${field} to data with value ${value}`);
             data[field].push(value);
           }
 
@@ -682,6 +606,7 @@ export async function runScraper(
             areaData,
             apiKey
           );
+          data["City Data URL"].push(urlCity);
 
           if (
             closestMetroArea &&
@@ -701,13 +626,21 @@ export async function runScraper(
               );
               data["Job Growth (%)"].push(jobGrowth);
               data["Closest Metro Area"].push(closestMetroArea);
+              console.log(
+                `Adding job growth % to data with value ${jobGrowth}`
+              );
             } else {
               data["Job Growth (%)"].push(null);
               data["Closest Metro Area"].push(closestMetroArea);
             }
+            data["BLS URL"].push(blsUrl);
+            console.log(
+              `Adding closest metro area to data with value ${closestMetroArea}`
+            );
           } else {
             data["Job Growth (%)"].push(null);
             data["Closest Metro Area"].push(null);
+            data["BLS URL"].push(null);
           }
         }
       }
@@ -717,7 +650,7 @@ export async function runScraper(
         console.log(`Scraping complete for ${state}`);
         const excelFilename = `market_research_${state
           .replace(/ /g, "")
-          .toLowerCase()}_${timestamp}.xlsx`;
+          .toLowerCase()}_min_${minPopulation}_${timestamp}.xlsx`;
 
         // Create workbook and worksheet
         const workbook = new ExcelJS.Workbook();

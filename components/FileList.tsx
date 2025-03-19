@@ -92,8 +92,8 @@ export default function FileList({
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {files.map((file) => (
-              <tr key={file.name} className="hover:bg-gray-50">
+            {files.map((file, index) => (
+              <tr key={`${file.name}-${index}`} className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                   {file.name}
                 </td>
