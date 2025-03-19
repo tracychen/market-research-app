@@ -3,13 +3,17 @@
     "area_code": "10180",
     "coordinates": [32.4487364, -99.73314390000002]
   },
-  "Aguadilla-Isabela, PR": {
+  "Aguadilla, PR": {
     "area_code": "10380",
-    "coordinates": [18.3475548, -67.04645909999999]
+    "coordinates": [18.4295875, -67.15410969999999]
   },
   "Akron, OH": {
     "area_code": "10420",
     "coordinates": [41.081199, -81.51883769999999]
+  },
+  "Albany-Schenectady-Troy, NY": {
+    "area_code": "10580",
+    "coordinates": [42.7636479, -73.65362089999999]
   },
   "Albany, GA": {
     "area_code": "10500",
@@ -18,10 +22,6 @@
   "Albany, OR": {
     "area_code": "10540",
     "coordinates": [44.6365107, -123.1059282]
-  },
-  "Albany-Schenectady-Troy, NY": {
-    "area_code": "10580",
-    "coordinates": [42.7636479, -73.65362089999999]
   },
   "Albuquerque, NM": {
     "area_code": "10740",
@@ -47,21 +47,29 @@
     "area_code": "11180",
     "coordinates": [42.0307812, -93.63191309999999]
   },
-  "Anaheim-Santa Ana-Irvine, CA": {
-    "area_code": "11244",
-    "coordinates": [33.7454725, -117.867653]
+  "Amherst Town-Northampton, MA": {
+    "area_code": "11200",
+    "coordinates": [42.3732216, -72.5198537]
   },
   "Anchorage, AK": {
     "area_code": "11260",
     "coordinates": [61.2175758, -149.8996785]
   },
+  "Anderson, IN": {
+    "area_code": "11300",
+    "coordinates": [40.1051253, -85.6781677]
+  },
+  "Anderson, SC": {
+    "area_code": "11340",
+    "coordinates": [34.5034394, -82.6501332]
+  },
   "Ann Arbor, MI": {
     "area_code": "11460",
     "coordinates": [42.2808256, -83.7430378]
   },
-  "Anniston-Oxford-Jacksonville, AL": {
+  "Anniston-Oxford, AL": {
     "area_code": "11500",
-    "coordinates": [33.8137125, -85.76135359999999]
+    "coordinates": [33.7701576, -85.80766]
   },
   "Appleton, WI": {
     "area_code": "11540",
@@ -95,17 +103,25 @@
     "area_code": "12260",
     "coordinates": [33.4734978, -82.0105148]
   },
-  "Austin-Round Rock, TX": {
+  "Austin-Round Rock-San Marcos, TX": {
     "area_code": "12420",
-    "coordinates": [30.5122035, -97.6731253]
+    "coordinates": [29.8832749, -97.9413941]
   },
-  "Bakersfield, CA": {
+  "Bakersfield-Delano, CA": {
     "area_code": "12540",
-    "coordinates": [35.3732921, -119.0187125]
+    "coordinates": [35.7422863, -119.2406988]
   },
   "Baltimore-Columbia-Towson, MD": {
     "area_code": "12580",
     "coordinates": [39.372594, -76.64127119999999]
+  },
+  "Bangor, ME": {
+    "area_code": "12620",
+    "coordinates": [44.8016128, -68.7712257]
+  },
+  "Barnstable Town, MA": {
+    "area_code": "12700",
+    "coordinates": [41.7003208, -70.3002024]
   },
   "Baton Rouge, LA": {
     "area_code": "12940",
@@ -131,7 +147,7 @@
     "area_code": "13380",
     "coordinates": [48.7519112, -122.4786854]
   },
-  "Bend-Redmond, OR": {
+  "Bend, OR": {
     "area_code": "13460",
     "coordinates": [44.0581728, -121.3153096]
   },
@@ -143,9 +159,9 @@
     "area_code": "13780",
     "coordinates": [42.09868669999999, -75.91797380000001]
   },
-  "Birmingham-Hoover, AL": {
+  "Birmingham, AL": {
     "area_code": "13820",
-    "coordinates": [33.4415956, -86.7818523]
+    "coordinates": [33.5185892, -86.8103567]
   },
   "Bismarck, ND": {
     "area_code": "13900",
@@ -155,6 +171,10 @@
     "area_code": "13980",
     "coordinates": [37.13179239999999, -80.5764477]
   },
+  "Bloomington-Normal, IL": {
+    "area_code": "14060",
+    "coordinates": [40.5478429, -88.86469799999999]
+  },
   "Bloomington, IL": {
     "area_code": "14010",
     "coordinates": [40.4842027, -88.99368729999999]
@@ -163,13 +183,13 @@
     "area_code": "14020",
     "coordinates": [39.165325, -86.52638569999999]
   },
-  "Bloomsburg-Berwick, PA": {
-    "area_code": "14100",
-    "coordinates": [41.0495245, -76.5488232]
-  },
   "Boise City, ID": {
     "area_code": "14260",
     "coordinates": [43.6150186, -116.2023137]
+  },
+  "Boston-Cambridge-Newton, MA-NH": {
+    "area_code": "14460",
+    "coordinates": [42.3600709, -71.0588305]
   },
   "Boulder, CO": {
     "area_code": "14500",
@@ -179,21 +199,37 @@
     "area_code": "14540",
     "coordinates": [36.9685219, -86.4808043]
   },
-  "Bremerton-Silverdale, WA": {
+  "Bozeman, MT": {
+    "area_code": "14580",
+    "coordinates": [45.67931189999999, -111.037259]
+  },
+  "Bremerton-Silverdale-Port Orchard, WA": {
     "area_code": "14740",
-    "coordinates": [47.6445386, -122.6948697]
+    "coordinates": [47.5403732, -122.6362492]
+  },
+  "Bridgeport-Stamford-Danbury, CT": {
+    "area_code": "14860",
+    "coordinates": [41.211842, -73.2057595]
+  },
+  "Bristol, VA": {
+    "area_code": "14980",
+    "coordinates": [36.6159085, -82.1659243]
   },
   "Brownsville-Harlingen, TX": {
     "area_code": "15180",
     "coordinates": [26.1906306, -97.69610259999999]
   },
-  "Brunswick, GA": {
+  "Brunswick-St. Simons, GA": {
     "area_code": "15260",
-    "coordinates": [31.1510919, -81.4878157]
+    "coordinates": [31.1598492, -81.3875372]
   },
-  "Buffalo-Cheektowaga-Niagara Falls, NY": {
+  "Buffalo-Cheektowaga, NY": {
     "area_code": "15380",
-    "coordinates": [42.9071477, -78.7542892]
+    "coordinates": [42.9204902, -78.75492849999999]
+  },
+  "Burlington-South Burlington, VT": {
+    "area_code": "15540",
+    "coordinates": [44.4707506, -73.1516317]
   },
   "Burlington, NC": {
     "area_code": "15500",
@@ -202,10 +238,6 @@
   "California-Lexington Park, MD": {
     "area_code": "15680",
     "coordinates": [38.3004029, -76.5074542]
-  },
-  "Camden, NJ": {
-    "area_code": "15804",
-    "coordinates": [39.9259463, -75.1196199]
   },
   "Canton-Massillon, OH": {
     "area_code": "15940",
@@ -219,10 +251,6 @@
     "area_code": "16020",
     "coordinates": [37.3058839, -89.51814759999999]
   },
-  "Carbondale-Marion, IL": {
-    "area_code": "16060",
-    "coordinates": [37.7272727, -89.2167501]
-  },
   "Carson City, NV": {
     "area_code": "16180",
     "coordinates": [39.1637984, -119.7674034]
@@ -235,7 +263,7 @@
     "area_code": "16300",
     "coordinates": [41.9778795, -91.6656232]
   },
-  "Chambersburg-Waynesboro, PA": {
+  "Chambersburg, PA": {
     "area_code": "16540",
     "coordinates": [39.9375911, -77.6611022]
   },
@@ -243,13 +271,13 @@
     "area_code": "16580",
     "coordinates": [40.1164204, -88.2433829]
   },
-  "Charleston, WV": {
-    "area_code": "16620",
-    "coordinates": [38.3498195, -81.6326234]
-  },
   "Charleston-North Charleston, SC": {
     "area_code": "16700",
     "coordinates": [32.8909785, -80.0691552]
+  },
+  "Charleston, WV": {
+    "area_code": "16620",
+    "coordinates": [38.3498195, -81.6326234]
   },
   "Charlotte-Concord-Gastonia, NC-SC": {
     "area_code": "16740",
@@ -267,11 +295,7 @@
     "area_code": "16940",
     "coordinates": [41.1399814, -104.8202462]
   },
-  "Chicago-Naperville-Arlington Heights, IL": {
-    "area_code": "16974",
-    "coordinates": [42.0883603, -87.98062650000001]
-  },
-  "Chicago-Naperville-Elgin, IL-IN-WI": {
+  "Chicago-Naperville-Elgin, IL-IN": {
     "area_code": "16980",
     "coordinates": [42.2162567, -87.8549755]
   },
@@ -287,13 +311,17 @@
     "area_code": "17300",
     "coordinates": [36.5297706, -87.3594528]
   },
-  "Cleveland, TN": {
-    "area_code": "17420",
-    "coordinates": [35.1595182, -84.8766115]
-  },
   "Cleveland-Elyria, OH": {
     "area_code": "17460",
     "coordinates": [41.3767805, -82.0794156]
+  },
+  "Cleveland, OH": {
+    "area_code": "17410",
+    "coordinates": [41.49932, -81.6943605]
+  },
+  "Cleveland, TN": {
+    "area_code": "17420",
+    "coordinates": [35.1595182, -84.8766115]
   },
   "Coeur d'Alene, ID": {
     "area_code": "17660",
@@ -339,25 +367,13 @@
     "area_code": "18880",
     "coordinates": [30.3935337, -86.4957833]
   },
-  "Cumberland, MD-WV": {
-    "area_code": "19060",
-    "coordinates": [39.6528654, -78.7625185]
-  },
   "Dallas-Fort Worth-Arlington, TX": {
     "area_code": "19100",
     "coordinates": [32.735687, -97.10806559999999]
   },
-  "Dallas-Plano-Irving, TX": {
-    "area_code": "19124",
-    "coordinates": [32.8140177, -96.9488945]
-  },
   "Dalton, GA": {
     "area_code": "19140",
     "coordinates": [34.7698021, -84.9702228]
-  },
-  "Danville, IL": {
-    "area_code": "19180",
-    "coordinates": [40.124481, -87.6300207]
   },
   "Daphne-Fairhope-Foley, AL": {
     "area_code": "19300",
@@ -366,6 +382,10 @@
   "Davenport-Moline-Rock Island, IA-IL": {
     "area_code": "19340",
     "coordinates": [41.5067003, -90.51513419999999]
+  },
+  "Dayton-Kettering-Beavercreek, OH": {
+    "area_code": "19430",
+    "coordinates": [39.7536904, -84.1857115]
   },
   "Dayton, OH": {
     "area_code": "19380",
@@ -383,17 +403,13 @@
     "area_code": "19660",
     "coordinates": [29.0396219, -81.2518833]
   },
-  "Denver-Aurora-Lakewood, CO": {
+  "Denver-Aurora-Centennial, CO": {
     "area_code": "19740",
-    "coordinates": [39.5142848, -104.8454619]
+    "coordinates": [39.5807452, -104.8771726]
   },
   "Des Moines-West Des Moines, IA": {
     "area_code": "19780",
     "coordinates": [41.5410117, -93.8163328]
-  },
-  "Detroit-Dearborn-Livonia, MI": {
-    "area_code": "19804",
-    "coordinates": [42.2846297, -83.2296166]
   },
   "Detroit-Warren-Dearborn, MI": {
     "area_code": "19820",
@@ -419,13 +435,9 @@
     "area_code": "20500",
     "coordinates": [35.9131996, -79.0558445]
   },
-  "Dutchess County-Putnam County, NY": {
-    "area_code": "20524",
-    "coordinates": [41.7784372, -73.7477857]
-  },
-  "East Stroudsburg, PA": {
-    "area_code": "20700",
-    "coordinates": [41.0030522, -75.1817547]
+  "Eagle Pass, TX": {
+    "area_code": "20580",
+    "coordinates": [28.7091433, -100.4995214]
   },
   "Eau Claire, WI": {
     "area_code": "20740",
@@ -435,13 +447,13 @@
     "area_code": "20940",
     "coordinates": [32.792, -115.5630514]
   },
-  "Elgin, IL": {
-    "area_code": "20994",
-    "coordinates": [42.0354084, -88.2825668]
+  "El Paso, TX": {
+    "area_code": "21340",
+    "coordinates": [31.7618778, -106.4850217]
   },
-  "Elizabethtown-Fort Knox, KY": {
+  "Elizabethtown, KY": {
     "area_code": "21060",
-    "coordinates": [37.8853595, -85.9503469]
+    "coordinates": [37.7043065, -85.87123849999999]
   },
   "Elkhart-Goshen, IN": {
     "area_code": "21140",
@@ -451,10 +463,6 @@
     "area_code": "21300",
     "coordinates": [42.0897965, -76.8077338]
   },
-  "El Paso, TX": {
-    "area_code": "21340",
-    "coordinates": [31.7618778, -106.4850217]
-  },
   "Enid, OK": {
     "area_code": "21420",
     "coordinates": [36.3955891, -97.8783911]
@@ -463,17 +471,21 @@
     "area_code": "21500",
     "coordinates": [42.12922409999999, -80.085059]
   },
-  "Eugene, OR": {
+  "Eugene-Springfield, OR": {
     "area_code": "21660",
-    "coordinates": [44.0520691, -123.0867536]
+    "coordinates": [44.045607, -123.021156]
   },
-  "Evansville, IN-KY": {
+  "Evansville, IN": {
     "area_code": "21780",
     "coordinates": [37.9715592, -87.5710898]
   },
-  "Fairbanks, AK": {
+  "Fairbanks-College, AK": {
     "area_code": "21820",
-    "coordinates": [64.8400511, -147.7199756]
+    "coordinates": [64.8555748, -147.8340598]
+  },
+  "Fajardo, PR": {
+    "area_code": "21940",
+    "coordinates": [18.3384392, -65.6563432]
   },
   "Fargo, ND-MN": {
     "area_code": "22020",
@@ -483,13 +495,13 @@
     "area_code": "22140",
     "coordinates": [36.72805830000001, -108.2186856]
   },
+  "Fayetteville-Springdale-Rogers, AR": {
+    "area_code": "22220",
+    "coordinates": [36.0148605, -94.2333355]
+  },
   "Fayetteville, NC": {
     "area_code": "22180",
     "coordinates": [35.0523673, -78.87837739999999]
-  },
-  "Fayetteville-Springdale-Rogers, AR-MO": {
-    "area_code": "22220",
-    "coordinates": [36.1745404, -94.13898309999999]
   },
   "Flagstaff, AZ": {
     "area_code": "22380",
@@ -499,37 +511,37 @@
     "area_code": "22420",
     "coordinates": [43.0125274, -83.6874562]
   },
-  "Florence, SC": {
-    "area_code": "22500",
-    "coordinates": [34.1954331, -79.7625625]
-  },
   "Florence-Muscle Shoals, AL": {
     "area_code": "22520",
     "coordinates": [34.7448112, -87.66752919999999]
+  },
+  "Florence, AL": {
+    "area_code": "22460",
+    "coordinates": [34.79981, -87.677251]
+  },
+  "Florence, SC": {
+    "area_code": "22500",
+    "coordinates": [34.1954331, -79.7625625]
   },
   "Fond du Lac, WI": {
     "area_code": "22540",
     "coordinates": [43.7730448, -88.4470508]
   },
-  "Fort Collins, CO": {
+  "Fort Collins-Loveland, CO": {
     "area_code": "22660",
-    "coordinates": [40.5852602, -105.084423]
-  },
-  "Fort Lauderdale-Pompano Beach-Deerfield Beach, FL Metropolitan": {
-    "area_code": "22744",
-    "coordinates": [26.3184123, -80.09976569999999]
+    "coordinates": [40.395451, -105.0745837]
   },
   "Fort Smith, AR-OK": {
     "area_code": "22900",
     "coordinates": [35.428109, -94.3850907]
   },
+  "Fort Walton Beach-Crestview-Destin, FL": {
+    "area_code": "23020",
+    "coordinates": [30.7611484, -86.6611083]
+  },
   "Fort Wayne, IN": {
     "area_code": "23060",
     "coordinates": [41.079273, -85.1393513]
-  },
-  "Fort Worth-Arlington, TX": {
-    "area_code": "23104",
-    "coordinates": [32.735687, -97.10806559999999]
   },
   "Fresno, CA": {
     "area_code": "23420",
@@ -546,10 +558,6 @@
   "Gainesville, GA": {
     "area_code": "23580",
     "coordinates": [34.2978794, -83.8240663]
-  },
-  "Gary, IN": {
-    "area_code": "23844",
-    "coordinates": [41.6020403, -87.3371523]
   },
   "Gettysburg, PA": {
     "area_code": "23900",
@@ -575,9 +583,9 @@
     "area_code": "24300",
     "coordinates": [39.0638705, -108.5506486]
   },
-  "Grand Rapids-Wyoming, MI": {
+  "Grand Rapids-Wyoming-Kentwood, MI": {
     "area_code": "24340",
-    "coordinates": [42.9133602, -85.7053085]
+    "coordinates": [42.8694731, -85.64474919999999]
   },
   "Grants Pass, OR": {
     "area_code": "24420",
@@ -599,21 +607,21 @@
     "area_code": "24660",
     "coordinates": [36.1029481, -79.9335219]
   },
+  "Greenville-Anderson-Greer, SC": {
+    "area_code": "24860",
+    "coordinates": [34.9387279, -82.2270568]
+  },
   "Greenville, NC": {
     "area_code": "24780",
     "coordinates": [35.612661, -77.3663538]
-  },
-  "Greenville-Anderson-Mauldin, SC": {
-    "area_code": "24860",
-    "coordinates": [34.8420019, -82.34518899999999]
   },
   "Guayama, PR": {
     "area_code": "25020",
     "coordinates": [17.9752553, -66.1153911]
   },
-  "Gulfport-Biloxi-Pascagoula, MS": {
+  "Gulfport-Biloxi, MS": {
     "area_code": "25060",
-    "coordinates": [30.3657552, -88.5561272]
+    "coordinates": [30.3674198, -89.0928155]
   },
   "Hagerstown-Martinsburg, MD-WV": {
     "area_code": "25180",
@@ -635,37 +643,53 @@
     "area_code": "25500",
     "coordinates": [38.4495688, -78.8689155]
   },
+  "Hartford-West Hartford-East Hartford, CT": {
+    "area_code": "25540",
+    "coordinates": [41.7658043, -72.6733723]
+  },
   "Hattiesburg, MS": {
     "area_code": "25620",
     "coordinates": [31.3271189, -89.29033919999999]
+  },
+  "Helena, MT": {
+    "area_code": "25740",
+    "coordinates": [46.5891452, -112.0391057]
   },
   "Hickory-Lenoir-Morganton, NC": {
     "area_code": "25860",
     "coordinates": [35.7771691, -81.3399414]
   },
-  "Hilton Head Island-Bluffton-Beaufort, SC": {
+  "Hilton Head Island-Bluffton-Port Royal, SC": {
     "area_code": "25940",
-    "coordinates": [32.2371465, -80.8603868]
+    "coordinates": [32.3790843, -80.6926069]
   },
   "Hinesville, GA": {
     "area_code": "25980",
     "coordinates": [31.8315028, -81.6141099]
   },
+  "Holland-Grand Haven, MI": {
+    "area_code": "26100",
+    "coordinates": [43.0278757, -86.0121573]
+  },
   "Homosassa Springs, FL": {
     "area_code": "26140",
     "coordinates": [28.8037059, -82.5761369]
+  },
+  "Honolulu, HI": {
+    "area_code": "26180",
+    "coordinates": [21.3098845, -157.8581401]
   },
   "Hot Springs, AR": {
     "area_code": "26300",
     "coordinates": [34.5077615, -93.05460029999999]
   },
-  "Houma-Thibodaux, LA": {
+  "Houma-Bayou Cane-Thibodaux, LA": {
     "area_code": "26380",
-    "coordinates": [29.7820732, -90.809353]
+    "coordinates": [29.6014226, -90.7532809]
   },
-  "Houston-The Woodlands-Sugar Land, TX": {
+  "Houston-Pasadena-The Woodlands, TX": {
     "area_code": "26420",
-    "coordinates": [29.5984434, -95.6225521]
+    "coordinates": [30.1657654, -95.46113199999999]
   },
   "Huntington-Ashland, WV-KY-OH": {
     "area_code": "26580",
@@ -679,9 +703,9 @@
     "area_code": "26820",
     "coordinates": [43.4926602, -112.0407506]
   },
-  "Indianapolis-Carmel-Anderson, IN": {
+  "Indianapolis-Carmel-Greenwood, IN": {
     "area_code": "26900",
-    "coordinates": [39.83618999999999, -86.17517590000001]
+    "coordinates": [39.978371, -86.1180435]
   },
   "Iowa City, IA": {
     "area_code": "26980",
@@ -731,13 +755,13 @@
     "area_code": "27860",
     "coordinates": [35.835696, -90.7051346]
   },
-  "Joplin, MO": {
+  "Joplin, MO-KS": {
     "area_code": "27900",
-    "coordinates": [37.08422710000001, -94.51328099999999]
+    "coordinates": [37.0646106, -94.5008529]
   },
-  "Kahului-Wailuku-Lahaina, HI": {
+  "Kahului-Wailuku, HI": {
     "area_code": "27980",
-    "coordinates": [20.882371, -156.6816195]
+    "coordinates": [20.8869433, -156.5048344]
   },
   "Kalamazoo-Portage, MI": {
     "area_code": "28020",
@@ -755,17 +779,25 @@
     "area_code": "28420",
     "coordinates": [46.2086683, -119.119948]
   },
+  "Kenosha, WI": {
+    "area_code": "28450",
+    "coordinates": [42.58406290000001, -87.8241994]
+  },
   "Killeen-Temple, TX": {
     "area_code": "28660",
     "coordinates": [31.1241507, -97.69822719999999]
   },
-  "Kingsport-Bristol-Bristol, TN-VA": {
+  "Kingsport-Bristol, TN-VA": {
     "area_code": "28700",
     "coordinates": [36.6305137, -82.4752757]
   },
   "Kingston, NY": {
     "area_code": "28740",
     "coordinates": [41.9270367, -73.9973608]
+  },
+  "Kiryas Joel-Poughkeepsie-Newburgh, NY": {
+    "area_code": "28880",
+    "coordinates": [41.3420381, -74.167924]
   },
   "Knoxville, TN": {
     "area_code": "28940",
@@ -779,21 +811,21 @@
     "area_code": "29100",
     "coordinates": [43.8844092, -91.23513930000001]
   },
-  "Lafayette, LA": {
-    "area_code": "29180",
-    "coordinates": [30.2240897, -92.0198427]
-  },
   "Lafayette-West Lafayette, IN": {
     "area_code": "29200",
     "coordinates": [40.4258686, -86.90806549999999]
   },
+  "Lafayette, IN": {
+    "area_code": "29140",
+    "coordinates": [40.4177263, -86.8909321]
+  },
+  "Lafayette, LA": {
+    "area_code": "29180",
+    "coordinates": [30.2240897, -92.0198427]
+  },
   "Lake Charles, LA": {
     "area_code": "29340",
     "coordinates": [30.2265949, -93.2173758]
-  },
-  "Lake County-Kenosha County, IL-WI": {
-    "area_code": "29404",
-    "coordinates": [42.5663156, -87.658113]
   },
   "Lake Havasu City-Kingman, AZ": {
     "area_code": "29420",
@@ -819,9 +851,9 @@
     "area_code": "29740",
     "coordinates": [32.3199396, -106.7636538]
   },
-  "Las Vegas-Henderson-Paradise, NV": {
+  "Las Vegas-Henderson-North Las Vegas, NV": {
     "area_code": "29820",
-    "coordinates": [36.0971945, -115.1466648]
+    "coordinates": [36.0395247, -114.9817213]
   },
   "Lawrence, KS": {
     "area_code": "29940",
@@ -835,9 +867,17 @@
     "area_code": "30140",
     "coordinates": [40.3409251, -76.4113497]
   },
+  "Lewiston-Auburn, ME": {
+    "area_code": "30340",
+    "coordinates": [44.100351, -70.21477639999999]
+  },
   "Lewiston, ID-WA": {
     "area_code": "30300",
     "coordinates": [47.7510741, -120.7401386]
+  },
+  "Lexington Park, MD": {
+    "area_code": "30500",
+    "coordinates": [38.2575517, -76.4620928]
   },
   "Lexington-Fayette, KY": {
     "area_code": "30460",
@@ -859,21 +899,21 @@
     "area_code": "30860",
     "coordinates": [41.9077667, -111.7614661]
   },
+  "Longview-Kelso, WA": {
+    "area_code": "31020",
+    "coordinates": [46.1381676, -122.9381672]
+  },
   "Longview, TX": {
     "area_code": "30980",
     "coordinates": [32.5007037, -94.74048909999999]
-  },
-  "Longview, WA": {
-    "area_code": "31020",
-    "coordinates": [46.1381676, -122.9381672]
   },
   "Los Angeles-Long Beach-Anaheim, CA": {
     "area_code": "31080",
     "coordinates": [33.8365932, -117.9143012]
   },
-  "Los Angeles-Long Beach-Glendale, CA": {
-    "area_code": "31084",
-    "coordinates": [34.1425078, -118.255075]
+  "Los Angeles-Long Beach-Santa Ana, CA": {
+    "area_code": "31100",
+    "coordinates": [33.7454725, -117.867653]
   },
   "Louisville/Jefferson County, KY-IN": {
     "area_code": "31140",
@@ -899,13 +939,17 @@
     "area_code": "31540",
     "coordinates": [43.0721661, -89.4007501]
   },
+  "Manchester-Nashua, NH": {
+    "area_code": "31700",
+    "coordinates": [42.7851473, -71.4797517]
+  },
   "Manhattan, KS": {
     "area_code": "31740",
     "coordinates": [39.18360819999999, -96.57166939999999]
   },
-  "Mankato-North Mankato, MN": {
+  "Mankato, MN": {
     "area_code": "31860",
-    "coordinates": [44.1732996, -94.033845]
+    "coordinates": [44.1661456, -94.0055647]
   },
   "Mansfield, OH": {
     "area_code": "31900",
@@ -935,10 +979,6 @@
     "area_code": "33100",
     "coordinates": [26.7153424, -80.0533746]
   },
-  "Miami-Miami Beach-Kendall, FL": {
-    "area_code": "33124",
-    "coordinates": [25.6660336, -80.357827]
-  },
   "Michigan City-La Porte, IN": {
     "area_code": "33140",
     "coordinates": [41.70753939999999, -86.8950297]
@@ -951,13 +991,17 @@
     "area_code": "33260",
     "coordinates": [31.9973456, -102.0779146]
   },
-  "Milwaukee-Waukesha-West Allis, WI": {
+  "Milwaukee-Waukesha, WI": {
     "area_code": "33340",
-    "coordinates": [43.0166806, -88.0070315]
+    "coordinates": [43.0158822, -88.2435014]
   },
   "Minneapolis-St. Paul-Bloomington, MN-WI": {
     "area_code": "33460",
     "coordinates": [45.2472601, -93.4553904]
+  },
+  "Minot, ND": {
+    "area_code": "33500",
+    "coordinates": [48.2329668, -101.2922906]
   },
   "Missoula, MT": {
     "area_code": "33540",
@@ -983,10 +1027,6 @@
     "area_code": "33860",
     "coordinates": [32.3792233, -86.3077368]
   },
-  "Montgomery County-Bucks County-Chester County, PA Metropolitan": {
-    "area_code": "33874",
-    "coordinates": [40.4107964, -75.2479061]
-  },
   "Morgantown, WV": {
     "area_code": "34060",
     "coordinates": [39.629526, -79.95589679999999]
@@ -1003,61 +1043,49 @@
     "area_code": "34620",
     "coordinates": [40.1933767, -85.3863599]
   },
-  "Muskegon, MI": {
+  "Muskegon-Norton Shores, MI": {
     "area_code": "34740",
-    "coordinates": [43.2341813, -86.24839209999999]
+    "coordinates": [43.1503664, -86.2058038]
   },
-  "Myrtle Beach-Conway-North Myrtle Beach, SC-NC": {
+  "Myrtle Beach-Conway-North Myrtle Beach, SC": {
     "area_code": "34820",
-    "coordinates": [35.7595731, -79.01929969999999]
+    "coordinates": [33.9196567, -78.9288242]
   },
   "Napa, CA": {
     "area_code": "34900",
     "coordinates": [38.2975381, -122.286865]
   },
-  "Naples-Immokalee-Marco Island, FL": {
+  "Naples-Marco Island, FL": {
     "area_code": "34940",
-    "coordinates": [25.9397412, -81.70753549999999]
+    "coordinates": [26.069985, -81.42789839999999]
   },
   "Nashville-Davidson--Murfreesboro--Franklin, TN": {
     "area_code": "34980",
     "coordinates": [35.8456213, -86.39027]
   },
-  "Nassau County-Suffolk County, NY": {
-    "area_code": "35004",
-    "coordinates": [40.9848784, -72.61511689999999]
-  },
-  "Newark, NJ-PA": {
-    "area_code": "35084",
-    "coordinates": [40.735657, -74.1723667]
-  },
-  "New Bern, NC": {
-    "area_code": "35100",
-    "coordinates": [35.108493, -77.04411429999999]
+  "New Haven, CT": {
+    "area_code": "35300",
+    "coordinates": [41.308274, -72.9278835]
   },
   "New Orleans-Metairie, LA": {
     "area_code": "35380",
     "coordinates": [30.0019543, -90.1633887]
   },
-  "New York-Jersey City-White Plains, NY-NJ": {
-    "area_code": "35614",
-    "coordinates": [40.7177545, -74.0431435]
-  },
-  "New York-Newark-Jersey City, NY-NJ-PA": {
+  "New York-Newark-Jersey City, NY-NJ": {
     "area_code": "35620",
-    "coordinates": [40.7177545, -74.0431435]
+    "coordinates": [40.0583238, -74.4056612]
   },
-  "Niles-Benton Harbor, MI": {
+  "Niles, MI": {
     "area_code": "35660",
-    "coordinates": [42.1043988, -86.4453623]
+    "coordinates": [41.8297694, -86.2541768]
   },
-  "North Port-Sarasota-Bradenton, FL": {
+  "North Port-Bradenton-Sarasota, FL": {
     "area_code": "35840",
     "coordinates": [27.3959334, -82.5185837]
   },
-  "Oakland-Hayward-Berkeley, CA": {
-    "area_code": "36084",
-    "coordinates": [37.8715226, -122.273042]
+  "Norwich-New London-Willimantic, CT": {
+    "area_code": "35980",
+    "coordinates": [41.5242649, -72.07591049999999]
   },
   "Ocala, FL": {
     "area_code": "36100",
@@ -1071,21 +1099,21 @@
     "area_code": "36220",
     "coordinates": [31.8456816, -102.3676431]
   },
-  "Ogden-Clearfield, UT": {
+  "Ogden, UT": {
     "area_code": "36260",
-    "coordinates": [41.13571400000001, -111.9999435]
+    "coordinates": [41.2185625, -111.97051]
   },
   "Oklahoma City, OK": {
     "area_code": "36420",
     "coordinates": [35.4675602, -97.5164276]
   },
-  "Olympia-Tumwater, WA": {
+  "Olympia-Lacey-Tumwater, WA": {
     "area_code": "36500",
-    "coordinates": [47.0006548, -122.9255183]
+    "coordinates": [47.0073187, -122.9093063]
   },
-  "Omaha-Council Bluffs, NE-IA": {
+  "Omaha, NE-IA": {
     "area_code": "36540",
-    "coordinates": [41.2619444, -95.8608333]
+    "coordinates": [41.2565369, -95.9345034]
   },
   "Orlando-Kissimmee-Sanford, FL": {
     "area_code": "36740",
@@ -1103,17 +1131,25 @@
     "area_code": "37100",
     "coordinates": [34.1761133, -118.8487793]
   },
+  "Paducah, KY-IL": {
+    "area_code": "37140",
+    "coordinates": [37.0841709, -88.5980283]
+  },
   "Palm Bay-Melbourne-Titusville, FL": {
     "area_code": "37340",
     "coordinates": [28.263933, -80.7214417]
   },
-  "Panama City, FL": {
+  "Panama City-Panama City Beach, FL": {
     "area_code": "37460",
-    "coordinates": [30.1588129, -85.6602058]
+    "coordinates": [30.2282283, -85.8885797]
   },
   "Parkersburg-Vienna, WV": {
     "area_code": "37620",
     "coordinates": [39.3270191, -81.5484578]
+  },
+  "Pascagoula, MS": {
+    "area_code": "37700",
+    "coordinates": [30.3657552, -88.5561272]
   },
   "Pensacola-Ferry Pass-Brent, FL": {
     "area_code": "37860",
@@ -1123,25 +1159,25 @@
     "area_code": "37900",
     "coordinates": [40.6936488, -89.5889864]
   },
-  "Philadelphia, PA": {
-    "area_code": "37964",
-    "coordinates": [39.9525839, -75.1652215]
-  },
   "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD": {
     "area_code": "37980",
     "coordinates": [38.9108325, -75.52766989999999]
   },
-  "Phoenix-Mesa-Scottsdale, AZ": {
+  "Phoenix-Mesa-Chandler, AZ": {
     "area_code": "38060",
-    "coordinates": [33.4151843, -111.8314724]
+    "coordinates": [33.3089787, -111.6559353]
   },
-  "Pine Bluff, AR": {
-    "area_code": "38220",
-    "coordinates": [34.224908, -92.0033977]
+  "Pinehurst-Southern Pines, NC": {
+    "area_code": "38240",
+    "coordinates": [35.1604147, -79.4168332]
   },
   "Pittsburgh, PA": {
     "area_code": "38300",
     "coordinates": [40.44062479999999, -79.9958864]
+  },
+  "Pittsfield, MA": {
+    "area_code": "38340",
+    "coordinates": [42.4500845, -73.2453824]
   },
   "Pocatello, ID": {
     "area_code": "38540",
@@ -1151,21 +1187,37 @@
     "area_code": "38660",
     "coordinates": [18.0033124, -66.6240293]
   },
+  "Port St. Lucie, FL": {
+    "area_code": "38940",
+    "coordinates": [27.2730492, -80.3582261]
+  },
+  "Portland-South Portland, ME": {
+    "area_code": "38860",
+    "coordinates": [43.6501182, -70.2415989]
+  },
   "Portland-Vancouver-Hillsboro, OR-WA": {
     "area_code": "38900",
     "coordinates": [45.65367579999999, -122.5462872]
   },
-  "Port St. Lucie, FL": {
-    "area_code": "38940",
-    "coordinates": [27.2730492, -80.3582261]
+  "Poughkeepsie-Newburgh-Middletown, NY": {
+    "area_code": "39100",
+    "coordinates": [41.6230989, -73.7477857]
+  },
+  "Prescott Valley-Prescott, AZ": {
+    "area_code": "39150",
+    "coordinates": [34.6096777, -112.315259]
   },
   "Prescott, AZ": {
     "area_code": "39140",
     "coordinates": [34.5400242, -112.4685025]
   },
-  "Provo-Orem, UT": {
+  "Providence-Warwick, RI-MA": {
+    "area_code": "39300",
+    "coordinates": [41.7169652, -71.4939096]
+  },
+  "Provo-Orem-Lehi, UT": {
     "area_code": "39340",
-    "coordinates": [40.3566937, -111.7376178]
+    "coordinates": [40.3916172, -111.8507662]
   },
   "Pueblo, CO": {
     "area_code": "39380",
@@ -1175,13 +1227,13 @@
     "area_code": "39460",
     "coordinates": [26.9297836, -82.0453664]
   },
-  "Racine, WI": {
+  "Racine-Mount Pleasant, WI": {
     "area_code": "39540",
-    "coordinates": [42.7261309, -87.78285230000002]
+    "coordinates": [42.7265929, -87.8949876]
   },
-  "Raleigh, NC": {
+  "Raleigh-Cary, NC": {
     "area_code": "39580",
-    "coordinates": [35.7795897, -78.6381787]
+    "coordinates": [35.7890402, -78.77976439999999]
   },
   "Rapid City, SD": {
     "area_code": "39660",
@@ -1231,29 +1283,13 @@
     "area_code": "40660",
     "coordinates": [34.257038, -85.1646726]
   },
-  "Sacramento--Roseville--Arden-Arcade, CA": {
+  "Sacramento-Roseville-Folsom, CA": {
     "area_code": "40900",
-    "coordinates": [38.6008071, -121.3770336]
+    "coordinates": [38.6719495, -121.1612945]
   },
   "Saginaw, MI": {
     "area_code": "40980",
     "coordinates": [43.4194699, -83.9508068]
-  },
-  "St. Cloud, MN": {
-    "area_code": "41060",
-    "coordinates": [45.5579451, -94.16324039999999]
-  },
-  "St. George, UT": {
-    "area_code": "41100",
-    "coordinates": [37.0965278, -113.5684164]
-  },
-  "St. Joseph, MO-KS": {
-    "area_code": "41140",
-    "coordinates": [39.011902, -98.4842465]
-  },
-  "St. Louis, MO-IL": {
-    "area_code": "41180",
-    "coordinates": [38.6270025, -90.19940419999999]
   },
   "Salem, OR": {
     "area_code": "41420",
@@ -1263,13 +1299,13 @@
     "area_code": "41500",
     "coordinates": [36.6777372, -121.6555013]
   },
-  "Salisbury, MD-DE": {
+  "Salisbury, MD": {
     "area_code": "41540",
     "coordinates": [38.3606736, -75.5993692]
   },
-  "Salt Lake City, UT": {
+  "Salt Lake City-Murray, UT": {
     "area_code": "41620",
-    "coordinates": [40.7607793, -111.8910474]
+    "coordinates": [40.6668916, -111.8879909]
   },
   "San Angelo, TX": {
     "area_code": "41660",
@@ -1279,17 +1315,13 @@
     "area_code": "41700",
     "coordinates": [29.4249213, -98.4930675]
   },
-  "San Diego-Carlsbad, CA": {
+  "San Diego-Chula Vista-Carlsbad, CA": {
     "area_code": "41740",
-    "coordinates": [33.1580933, -117.3505939]
+    "coordinates": [33.0933809, -116.6081653]
   },
-  "San Francisco-Oakland-Hayward, CA": {
+  "San Francisco-Oakland-Fremont, CA": {
     "area_code": "41860",
-    "coordinates": [37.6687665, -122.0809964]
-  },
-  "San Francisco-Redwood City-South San Francisco, CA Metropolitan": {
-    "area_code": "41884",
-    "coordinates": [37.654656, -122.4077498]
+    "coordinates": [37.5485396, -121.988583]
   },
   "San German, PR": {
     "area_code": "41900",
@@ -1299,17 +1331,21 @@
     "area_code": "41940",
     "coordinates": [37.36883, -122.0363496]
   },
-  "San Juan-Carolina-Caguas, PR": {
+  "San Juan-Bayamon-Caguas, PR": {
     "area_code": "41980",
     "coordinates": [18.2357657, -66.0328548]
   },
-  "San Luis Obispo-Paso Robles-Arroyo Grande, CA": {
+  "San Luis Obispo-Paso Robles, CA": {
     "area_code": "42020",
-    "coordinates": [35.1185868, -120.5907252]
+    "coordinates": [35.6368759, -120.6545022]
   },
-  "San Rafael, CA": {
-    "area_code": "42034",
-    "coordinates": [37.9735346, -122.5310874]
+  "Sandusky, OH": {
+    "area_code": "41780",
+    "coordinates": [41.4561754, -82.71168209999999]
+  },
+  "Santa Barbara-Santa Maria-Goleta, CA": {
+    "area_code": "42060",
+    "coordinates": [34.6099379, -120.0665236]
   },
   "Santa Cruz-Watsonville, CA": {
     "area_code": "42100",
@@ -1323,29 +1359,29 @@
     "area_code": "42200",
     "coordinates": [34.9530337, -120.4357191]
   },
-  "Santa Rosa, CA": {
+  "Santa Rosa-Petaluma, CA": {
     "area_code": "42220",
-    "coordinates": [38.440429, -122.7140548]
+    "coordinates": [38.232417, -122.6366524]
+  },
+  "Sarasota-Bradenton-Venice, FL": {
+    "area_code": "42260",
+    "coordinates": [27.4308339, -82.3017728]
   },
   "Savannah, GA": {
     "area_code": "42340",
     "coordinates": [32.0808989, -81.091203]
   },
-  "Scranton--Wilkes-Barre--Hazleton, PA": {
+  "Scranton--Wilkes-Barre, PA": {
     "area_code": "42540",
-    "coordinates": [40.9584181, -75.97464719999999]
-  },
-  "Seattle-Bellevue-Everett, WA": {
-    "area_code": "42644",
-    "coordinates": [47.9789848, -122.2020794]
+    "coordinates": [41.410314, -75.661099]
   },
   "Seattle-Tacoma-Bellevue, WA": {
     "area_code": "42660",
     "coordinates": [47.6061031, -122.3320534]
   },
-  "Sebastian-Vero Beach, FL": {
+  "Sebastian-Vero Beach-West Vero Corridor, FL": {
     "area_code": "42680",
-    "coordinates": [27.6386434, -80.39727359999999]
+    "coordinates": [27.6391732, -80.47953969999999]
   },
   "Sebring, FL": {
     "area_code": "42700",
@@ -1367,17 +1403,17 @@
     "area_code": "43420",
     "coordinates": [31.82845799999999, -109.949686]
   },
-  "Silver Spring-Frederick-Rockville, MD": {
-    "area_code": "43524",
-    "coordinates": [39.41426879999999, -77.4105409]
-  },
   "Sioux City, IA-NE-SD": {
     "area_code": "43580",
     "coordinates": [43.9695148, -99.9018131]
   },
-  "Sioux Falls, SD": {
+  "Sioux Falls, SD-MN": {
     "area_code": "43620",
     "coordinates": [43.5460223, -96.731265]
+  },
+  "Slidell-Mandeville-Covington, LA": {
+    "area_code": "43640",
+    "coordinates": [30.2751945, -89.78117449999999]
   },
   "South Bend-Mishawaka, IN-MI": {
     "area_code": "43780",
@@ -1395,6 +1431,10 @@
     "area_code": "44100",
     "coordinates": [39.78172130000001, -89.6501481]
   },
+  "Springfield, MA": {
+    "area_code": "44140",
+    "coordinates": [42.1013104, -72.58927419999999]
+  },
   "Springfield, MO": {
     "area_code": "44180",
     "coordinates": [37.2089572, -93.29229889999999]
@@ -1403,13 +1443,29 @@
     "area_code": "44220",
     "coordinates": [39.9242266, -83.8088171]
   },
+  "St. Cloud, MN": {
+    "area_code": "41060",
+    "coordinates": [45.5579451, -94.16324039999999]
+  },
+  "St. George, UT": {
+    "area_code": "41100",
+    "coordinates": [37.0965278, -113.5684164]
+  },
+  "St. Joseph, MO-KS": {
+    "area_code": "41140",
+    "coordinates": [39.011902, -98.4842465]
+  },
+  "St. Louis, MO-IL": {
+    "area_code": "41180",
+    "coordinates": [38.6270025, -90.19940419999999]
+  },
   "State College, PA": {
     "area_code": "44300",
     "coordinates": [40.7933949, -77.8600012]
   },
-  "Staunton-Waynesboro, VA": {
+  "Staunton-Stuarts Draft, VA": {
     "area_code": "44420",
-    "coordinates": [38.0684692, -78.8894682]
+    "coordinates": [38.1494226, -79.0737047]
   },
   "Stockton-Lodi, CA": {
     "area_code": "44700",
@@ -1422,10 +1478,6 @@
   "Syracuse, NY": {
     "area_code": "45060",
     "coordinates": [43.0481221, -76.14742439999999]
-  },
-  "Tacoma-Lakewood, WA": {
-    "area_code": "45104",
-    "coordinates": [47.1717649, -122.518458]
   },
   "Tallahassee, FL": {
     "area_code": "45220",
@@ -1455,9 +1507,13 @@
     "area_code": "45820",
     "coordinates": [39.0473451, -95.67515759999999]
   },
-  "Trenton, NJ": {
+  "Traverse City, MI": {
+    "area_code": "45900",
+    "coordinates": [44.7628849, -85.6210036]
+  },
+  "Trenton-Princeton, NJ": {
     "area_code": "45940",
-    "coordinates": [40.2205824, -74.759717]
+    "coordinates": [40.2201787, -74.7642295]
   },
   "Tucson, AZ": {
     "area_code": "46060",
@@ -1491,25 +1547,29 @@
     "area_code": "46660",
     "coordinates": [30.8328597, -83.2771957]
   },
-  "Vallejo-Fairfield, CA": {
+  "Vallejo, CA": {
     "area_code": "46700",
-    "coordinates": [38.2562125, -121.9280928]
+    "coordinates": [38.1040864, -122.2566367]
+  },
+  "Vero Beach, FL": {
+    "area_code": "46940",
+    "coordinates": [27.638635, -80.39463169999999]
   },
   "Victoria, TX": {
     "area_code": "47020",
     "coordinates": [28.8052674, -97.0035982]
   },
-  "Vineland-Bridgeton, NJ": {
+  "Vineland, NJ": {
     "area_code": "47220",
-    "coordinates": [39.427337, -75.2340768]
+    "coordinates": [39.48693919999999, -75.0430969]
   },
-  "Virginia Beach-Norfolk-Newport News, VA-NC": {
+  "Virginia Beach-Chesapeake-Norfolk, VA-NC": {
     "area_code": "47260",
-    "coordinates": [36.8507689, -76.28587259999999]
+    "coordinates": [36.8481071, -76.1885415]
   },
-  "Visalia-Porterville, CA": {
+  "Visalia, CA": {
     "area_code": "47300",
-    "coordinates": [36.1341739, -118.8596804]
+    "coordinates": [36.3301329, -119.2966367]
   },
   "Waco, TX": {
     "area_code": "47380",
@@ -1523,17 +1583,13 @@
     "area_code": "47580",
     "coordinates": [32.6130007, -83.624201]
   },
-  "Warren-Troy-Farmington Hills, MI": {
-    "area_code": "47664",
-    "coordinates": [42.4989936, -83.3677168]
-  },
-  "Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Divis": {
-    "area_code": "47894",
-    "coordinates": [38.9071923, -77.0368707]
-  },
   "Washington-Arlington-Alexandria, DC-VA-MD-WV": {
     "area_code": "47900",
     "coordinates": [38.9071923, -77.0368707]
+  },
+  "Waterbury-Shelton, CT": {
+    "area_code": "47930",
+    "coordinates": [41.5581525, -73.0514965]
   },
   "Waterloo-Cedar Falls, IA": {
     "area_code": "47940",
@@ -1551,33 +1607,29 @@
     "area_code": "48260",
     "coordinates": [40.3697905, -80.63396379999999]
   },
-  "Wenatchee, WA": {
+  "Wenatchee-East Wenatchee, WA": {
     "area_code": "48300",
-    "coordinates": [47.4234599, -120.3103494]
-  },
-  "West Palm Beach-Boca Raton-Delray Beach, FL Metropolitan Divisi": {
-    "area_code": "48424",
-    "coordinates": [26.4614625, -80.0728201]
+    "coordinates": [47.41568239999999, -120.2931263]
   },
   "Wheeling, WV-OH": {
     "area_code": "48540",
     "coordinates": [40.0639616, -80.7209149]
   },
-  "Wichita, KS": {
-    "area_code": "48620",
-    "coordinates": [37.68717609999999, -97.33005299999999]
-  },
   "Wichita Falls, TX": {
     "area_code": "48660",
     "coordinates": [33.9137085, -98.4933873]
   },
+  "Wichita, KS": {
+    "area_code": "48620",
+    "coordinates": [37.68717609999999, -97.33005299999999]
+  },
+  "Wildwood-The Villages, FL": {
+    "area_code": "48680",
+    "coordinates": [28.927019, -82.0037608]
+  },
   "Williamsport, PA": {
     "area_code": "48700",
     "coordinates": [41.2411897, -77.00107860000001]
-  },
-  "Wilmington, DE-MD-NJ": {
-    "area_code": "48864",
-    "coordinates": [40.67626013373152, -75.1538451255713]
   },
   "Wilmington, NC": {
     "area_code": "48900",
@@ -1591,17 +1643,25 @@
     "area_code": "49180",
     "coordinates": [36.09985959999999, -80.244216]
   },
+  "Worcester, MA": {
+    "area_code": "49340",
+    "coordinates": [42.2628113, -71.80249309999999]
+  },
   "Yakima, WA": {
     "area_code": "49420",
     "coordinates": [46.6022299, -120.5060955]
+  },
+  "Yauco, PR": {
+    "area_code": "49500",
+    "coordinates": [18.0360048, -66.8605376]
   },
   "York-Hanover, PA": {
     "area_code": "49620",
     "coordinates": [39.8006553, -76.9830358]
   },
-  "Youngstown-Warren-Boardman, OH-PA": {
+  "Youngstown-Warren, OH": {
     "area_code": "49660",
-    "coordinates": [41.291972, -80.54384499999999]
+    "coordinates": [41.2375569, -80.81841659999999]
   },
   "Yuba City, CA": {
     "area_code": "49700",
@@ -1610,173 +1670,5 @@
   "Yuma, AZ": {
     "area_code": "49740",
     "coordinates": [32.6926512, -114.6276916]
-  },
-  "Bangor, ME": {
-    "area_code": "70750",
-    "coordinates": [44.8016128, -68.7712257]
-  },
-  "Barnstable Town, MA": {
-    "area_code": "70900",
-    "coordinates": [41.7003208, -70.3002024]
-  },
-  "Boston-Cambridge-Nashua, MA-NH": {
-    "area_code": "71650",
-    "coordinates": [42.7653662, -71.46756599999999]
-  },
-  "Boston-Cambridge-Newton, MA": {
-    "area_code": "71654",
-    "coordinates": [42.3600709, -71.0588305]
-  },
-  "Bridgeport-Stamford-Norwalk, CT": {
-    "area_code": "71950",
-    "coordinates": [41.211842, -73.2057595]
-  },
-  "Brockton-Bridgewater-Easton, MA": {
-    "area_code": "72104",
-    "coordinates": [42.0834335, -71.0183787]
-  },
-  "Burlington-South Burlington, VT": {
-    "area_code": "72400",
-    "coordinates": [44.4707506, -73.1516317]
-  },
-  "Danbury, CT": {
-    "area_code": "72850",
-    "coordinates": [41.394817, -73.4540111]
-  },
-  "Dover-Durham, NH-ME": {
-    "area_code": "73050",
-    "coordinates": [43.1401841, -70.9102432]
-  },
-  "Framingham, MA": {
-    "area_code": "73104",
-    "coordinates": [42.279286, -71.4161565]
-  },
-  "Hartford-West Hartford-East Hartford, CT": {
-    "area_code": "73450",
-    "coordinates": [41.7658043, -72.6733723]
-  },
-  "Haverhill-Newburyport-Amesbury Town, MA-NH": {
-    "area_code": "73604",
-    "coordinates": [43.1938516, -71.5723953]
-  },
-  "Lawrence-Methuen Town-Salem, MA-NH": {
-    "area_code": "74204",
-    "coordinates": [43.1938516, -71.5723953]
-  },
-  "Leominster-Gardner, MA": {
-    "area_code": "74500",
-    "coordinates": [42.5750883, -71.998133]
-  },
-  "Lewiston-Auburn, ME": {
-    "area_code": "74650",
-    "coordinates": [44.100351, -70.21477639999999]
-  },
-  "Lowell-Billerica-Chelmsford, MA-NH": {
-    "area_code": "74804",
-    "coordinates": [43.1938516, -71.5723953]
-  },
-  "Lynn-Saugus-Marblehead, MA": {
-    "area_code": "74854",
-    "coordinates": [42.4651421, -71.0110473]
-  },
-  "Manchester, NH": {
-    "area_code": "74950",
-    "coordinates": [42.9956397, -71.4547891]
-  },
-  "Nashua, NH-MA": {
-    "area_code": "75404",
-    "coordinates": [42.7446356, -71.4474789]
-  },
-  "New Bedford, MA": {
-    "area_code": "75550",
-    "coordinates": [41.6362152, -70.93420499999999]
-  },
-  "New Haven, CT": {
-    "area_code": "75700",
-    "coordinates": [41.308274, -72.9278835]
-  },
-  "Norwich-New London-Westerly, CT-RI": {
-    "area_code": "76450",
-    "coordinates": [41.5242649, -72.07591049999999]
-  },
-  "Peabody-Salem-Beverly, MA": {
-    "area_code": "76524",
-    "coordinates": [42.5186389, -70.8912033]
-  },
-  "Pittsfield, MA": {
-    "area_code": "76600",
-    "coordinates": [42.4500845, -73.2453824]
-  },
-  "Portland-South Portland, ME": {
-    "area_code": "76750",
-    "coordinates": [43.6501182, -70.2415989]
-  },
-  "Portsmouth, NH-ME": {
-    "area_code": "76900",
-    "coordinates": [43.0717552, -70.7625532]
-  },
-  "Providence-Warwick, RI-MA": {
-    "area_code": "77200",
-    "coordinates": [41.7169652, -71.4939096]
-  },
-  "Springfield, MA-CT": {
-    "area_code": "78100",
-    "coordinates": [42.1014831, -72.589811]
-  },
-  "Taunton-Middleborough-Norton, MA": {
-    "area_code": "78254",
-    "coordinates": [41.9667703, -71.1869963]
-  },
-  "Waterbury, CT": {
-    "area_code": "78700",
-    "coordinates": [41.5581525, -73.0514965]
-  },
-  "Worcester, MA-CT": {
-    "area_code": "79600",
-    "coordinates": [42.2625932, -71.8022934]
-  },
-  "Baltimore City, MD": {
-    "area_code": "92581",
-    "coordinates": [39.2903848, -76.6121893]
-  },
-  "Kansas City, MO": {
-    "area_code": "92811",
-    "coordinates": [39.0997265, -94.5785667]
-  },
-  "Kansas City, KS": {
-    "area_code": "92812",
-    "coordinates": [39.11553139999999, -94.62678729999999]
-  },
-  "New York City, NY": {
-    "area_code": "93561",
-    "coordinates": [40.7127753, -74.0059728]
-  },
-  "Orange-Rockland-Westchester, NY": {
-    "area_code": "93562",
-    "coordinates": [41.1220194, -73.7948516]
-  },
-  "Bergen-Hudson-Passaic, NJ": {
-    "area_code": "93563",
-    "coordinates": [40.8567662, -74.1284764]
-  },
-  "Middlesex-Monmouth-Ocean, NJ": {
-    "area_code": "93565",
-    "coordinates": [40.572603, -74.4926541]
-  },
-  "Calvert-Charles-Prince George's, MD": {
-    "area_code": "94781",
-    "coordinates": [38.78492110000001, -76.8720961]
-  },
-  "Northern Virginia, VA": {
-    "area_code": "94783",
-    "coordinates": [38.8050552, -77.04698619999999]
-  },
-  "Philadelphia City, PA": {
-    "area_code": "97961",
-    "coordinates": [39.9525839, -75.1652215]
-  },
-  "Delaware County, PA": {
-    "area_code": "97962",
-    "coordinates": [39.907793, -75.3878525]
   }
 }

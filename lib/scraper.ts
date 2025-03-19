@@ -9,6 +9,7 @@ import areaData from "../data/areaData.json";
 import cityData from "../data/cityData.json";
 
 import fetch from "node-fetch";
+import { getCityLatLng } from "./geocoder";
 
 // MongoDB collection names
 const DB_NAME = "market-research";
@@ -258,14 +259,9 @@ export async function findClosestMetroArea(
     ) {
       targetCoords = cityDataCache[targetCityName].coordinates;
     } else {
-      const geoResults = await geocoder.geocode(targetCityName);
-      if (
-        geoResults &&
-        geoResults.length > 0 &&
-        geoResults[0].latitude &&
-        geoResults[0].longitude
-      ) {
-        targetCoords = [geoResults[0].latitude, geoResults[0].longitude];
+      const geoResults = await getCityLatLng(targetCityName, apiKey);
+      if (geoResults) {
+        targetCoords = geoResults;
 
         // Cache the coordinates
         cityDataCache[targetCityName] = {
