@@ -67,6 +67,12 @@ export default function Home() {
           <p className="mt-2 text-gray-600">
             Fetch and analyze demographic and economic data for U.S. cities
           </p>
+          <a
+            href="https://github.com/tracychen/market-research-app"
+            className="text-blue-500 hover:text-blue-700"
+          >
+            View on GitHub
+          </a>
         </header>
 
         {/* Add the collapsible description under the header */}

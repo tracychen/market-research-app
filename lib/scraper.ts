@@ -1,3 +1,6 @@
+// This file contains the scraper functions for the market research tool
+// Logic, websites, and fields to scrape for are based off of https://github.com/haveitjoewei/market-research
+
 import axios from "axios";
 import * as cheerio from "cheerio";
 import ExcelJS from "exceljs";
